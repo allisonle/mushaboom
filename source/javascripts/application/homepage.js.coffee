@@ -3,14 +3,11 @@ $(document).ready ->
 
 $('nav ul li').click (e) ->
   sec = $(e.target).data 'sec'
-  bgColor = $(e.target).data 'bg'
+  klass = $(e.target).data 'klass'
   $main = $('#main')
   $bg = $('#content-wrapper')
-  if $main.hasClass 'active'
-    $bg.css 'background-position', sec
-    $main.css 'background-color', bgColor
-  else
-    $main.addClass 'active'
+  $bg.css 'background-position', sec
+  $main.attr 'class', "active #{klass}"
   false
 
 
