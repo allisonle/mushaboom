@@ -2,5 +2,52 @@
 // Application Stylesheet
 //
 
-// Mixins 
+// Mixins
 @import "vendor/bourbon/bourbon";
+@import "vendor/jPushMenu";
+
+body {
+  margin: 0;
+}
+
+nav.hammertime {
+  background-color: #2b2d2b;
+}
+
+#content-wrapper {
+  background-image: url("/images/mainbg.jpg");
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+
+  .nav-button {
+    font-family: 'icomoon';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    &:before {
+      content: "\e602";
+      font-size: 40px;
+      color: white;
+      line-height: 50px;
+      margin: 10px;
+    } 
+
+    &:hover {
+      &:before {
+        color: black;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+h2 {
+  font-family: 'Belanusa', sans-serif;
+}
