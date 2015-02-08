@@ -12,9 +12,70 @@ body {
 
 nav.hammertime {
   background-color: #2b2d2b;
+  ul {
+    margin: 32px auto 0px;
+    li {
+      font-family: 'Belanusa', sans-serif;
+      list-style-type: none;
+      line-height: 30px;
+      color: #eff4df;
+      &:before {
+        margin-right: 8px;
+        font-family: 'allicon', sans-serif;
+        font-size: 18px;
+      }
+      &:hover { cursor: pointer; }
+      &.home {
+        &:before { content: '\e605'; }
+        &:hover {
+          color: #AC7835;
+        }
+      }
+      &.about{
+        &:before { content: '\e603'; }
+        &:hover {
+          color: #BFB23B;
+        }
+      }
+      &.web {
+        &:before { content: '\e602'; }
+        &:hover {
+          color: #8EDCB0;
+        }
+      }
+      &.design {
+        &:before { content: '\e600'; }
+        &:hover {
+          color: #D57690;
+        }
+      }
+      &.photo {
+        &:before { content: '\e601'; }
+        &:hover {
+          color: #CAC8EE;
+        }
+      }
+      &.contact {
+        &:before { content: '\e606'; }
+        &:hover {
+          color: #5FAFBF;
+        }
+      }
+      &.resume {
+        &:before { content: '\e604'; }
+        &:hover {
+          color: #CF6B4F;
+        }
+      }
+    }
+  }
 }
 
 #content-wrapper {
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
   background-image: url("/images/mainbg.jpg");
   position: fixed;
   height: 100%;
@@ -34,16 +95,50 @@ nav.hammertime {
     &:before {
       content: "\e602";
       font-size: 40px;
-      color: white;
+      color: #2b2d2b;
       line-height: 50px;
       margin: 10px;
-    } 
+    }
 
     &:hover {
       &:before {
-        color: black;
+        color: white;
         cursor: pointer;
       }
+    }
+  }
+
+  .name {
+    top: 42%;
+    position: absolute;
+    margin-left: 55px;
+    font-family: 'Belanusa';
+    font-size: 50px;
+    color: #8d566f;
+    span.tag {
+      display: block;
+      font-family: 'PT Mono';
+      color: #333;
+      font-size: 17px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+  }
+
+  #main {
+    background-color: #e7f4e7;
+    width: 600px;
+    height: 92%;
+    margin: 30px;
+    position: absolute;
+    top: 150%;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    &.active {
+      top: 0;
+      left: 30%;
     }
   }
 }

@@ -17,6 +17,16 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'allicon';
+  src:url('/fonts/allicon.eot?uhqgjs');
+  src:url('/fonts/allicon.eot?#iefixuhqgjo') format('embedded-opentype'),
+    url('/fonts/allicon.woff?uhqgzasdajo') format('woff'),
+    url('/fonts/allicon.ttf?uhqgjo') format('truetype'),
+    url('/fonts/allicon.svg?uhqgjo#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
 /*
   @font-face {
       font-family: 'BestFutureV';
