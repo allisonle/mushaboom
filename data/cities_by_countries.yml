@@ -1,0 +1,59 @@
+america:
+  - 
+    name: New York
+    state: New York
+    population: 8244910
+  - 
+    name: Boston
+    state: Massachusetts
+    population: 625087
+  -
+    name: Los Angeles
+    state: California
+    population: 3819702
+  -
+    name: Houston
+    state: Texas
+    population: 2145146
+
+australia:
+  -
+    name: Melbourne
+    state: Victoria
+    population: 4170000 
+  -
+    name: Sydney
+    state: New South Wales
+    population: 4605992
+  -
+    name: Brisbane
+    state: Queensland
+    population: 2146577
+  -
+    name: Darwin
+    state: Northern Territory
+    population: 127532
+  -
+    name: Perth
+    state: Western Australia
+    population: 1740000
+  -
+    name: Newcastle
+    state: New South Wales
+    population: 540002
+  -
+    name: Gold Coast
+    state: Queensland
+    population: 576747
+  -
+    name: Wollongong
+    state: New South Wales
+    population: 288101
+  -
+    name: Geelong
+    state: Victoria
+    population: 174086
+  -
+    name: Adelaide
+    state: South Australia
+    population: 1262940

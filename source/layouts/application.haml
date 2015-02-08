@@ -1,0 +1,35 @@
+!!! 5
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->
+%html.no-js{ :lang => "en" }
+  <!--<![endif]-->
+  %head
+    %meta{ :charset => "utf-8" }/
+    %meta{ "http-equiv" => "X-UA-Compatible", :content => "IE=edge,chrome=1" }/
+    %meta{ :name => "robots", :content => "index, follow" }/
+    %title= page_title
+    %meta{:content => page_description, :name => "description"}/
+    %meta{ :name => "keywords", :content => "" }/
+    %meta{ :name => "viewport", :content => "width=device-width, maximum-scale=1.0" }/
+    
+    = stylesheet_link_tag "screen.css?v=#{Time.now.to_i}"
+    = javascript_include_tag("vendor/modernizr.js", "vendor/webfont.js")
+
+    :javascript
+      WebFont.load({
+        google: { families: [ 'Titillium+Web:200,400:latin' ] },
+        custom: {families: ['BestFutureV'], urls: ['stylesheets/fonts.css']}
+      });
+
+
+  %body{ :class => page_classes }
+    = partial "shared/browser_warning"
+    = partial "shared/header"
+    #content-wrapper
+      = yield
+    = partial "shared/footer"
+
+    = javascript_include_tag "application"
+    = google_analytics_tag
