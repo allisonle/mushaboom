@@ -5,6 +5,7 @@
 // Mixins
 @import "vendor/bourbon/bourbon";
 @import "vendor/jPushMenu";
+@import "fonts";
 
 body {
   margin: 0;
@@ -76,7 +77,7 @@ nav.hammertime {
   -moz-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
   transition: all 0.5s ease;
-  background-image: url("/images/mainbg.jpg");
+  background-image: image-url("mainbg.jpg");
   position: fixed;
   height: 100%;
   width: 100%;

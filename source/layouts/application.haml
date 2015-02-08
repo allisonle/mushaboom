@@ -17,12 +17,6 @@
     = stylesheet_link_tag "style"
     = javascript_include_tag("vendor/modernizr.js", "vendor/webfont.js")
 
-    :javascript
-      WebFont.load({
-        google: { families: [ 'Titillium+Web:200,400:latin' ] },
-        custom: {families: ['BestFutureV'], urls: ['stylesheets/fonts.css']}
-      });
-
 
   %body{ :class => page_classes }
     = partial "shared/browser_warning"
@@ -32,4 +26,3 @@
     = partial "shared/footer"
 
     = javascript_include_tag "application"
-    = google_analytics_tag

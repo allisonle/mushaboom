@@ -2,39 +2,39 @@
 
 @font-face {
   font-family: 'Belanusa';
-  src:url('/fonts/belanusa.woff') format('woff'),
-     url('/fonts/belanusa.woff2') format('woff2');
+  src:font-url('belanusa.woff') format('woff'),
+     font-url('belanusa.woff2') format('woff2');
 }
 
 @font-face {
   font-family: 'icomoon';
-  src:url('/fonts/icomoon.eot?uhqgjzsdfo');
-  src:url('/fonts/icomoon.eot?#iefixuhqgjo') format('embedded-opentype'),
-    url('/fonts/icomoon.woff?uhqgzasdajo') format('woff'),
-    url('/fonts/icomoon.ttf?uhqgjo') format('truetype'),
-    url('/fonts/icomoon.svg?uhqgjo#icomoon') format('svg');
+  src:font-url('icomoon.eot?uhqgj');
+  src:font-url('icomoon.eot?#iefixuhqgjo') format('embedded-opentype'),
+    font-url('icomoon.woff?uhqgzasdajo') format('woff'),
+    font-url('icomoon.ttf?uhqgjo') format('truetype'),
+    font-url('icomoon.svg?uhqgjo#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'allicon';
-  src:url('/fonts/allicon.eot?uhqgjs');
-  src:url('/fonts/allicon.eot?#iefixuhqgjo') format('embedded-opentype'),
-    url('/fonts/allicon.woff?uhqgzasdajo') format('woff'),
-    url('/fonts/allicon.ttf?uhqgjo') format('truetype'),
-    url('/fonts/allicon.svg?uhqgjo#icomoon') format('svg');
+  src:font-url('allicon.eot?uhqgjs');
+  src:font-url('allicon.eot?#iefixuhqgjo') format('embedded-opentype'),
+    font-url('allicon.woff?uhqgzasdajo') format('woff'),
+    font-url('allicon.ttf?uhqgjo') format('truetype'),
+    font-url('allicon.svg?uhqgjo#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 /*
   @font-face {
       font-family: 'BestFutureV';
-      src: url('fonts/best_future_light_v1.eot');
-      src: url('fonts/best_future_light_v1.eot?#iefix') format('embedded-opentype'),
-         url('fonts/best_future_light_v1.woff') format('woff'),
-         url('fonts/best_future_light_v1.ttf') format('truetype'),
-         url('fonts/best_future_light_v1.svg#best_future_light_v1') format('svg');
+      src: url('best_future_light_v1.eot');
+      src: url('best_future_light_v1.eot?#iefix') format('embedded-opentype'),
+         url('best_future_light_v1.woff') format('woff'),
+         url('best_future_light_v1.ttf') format('truetype'),
+         url('best_future_light_v1.svg#best_future_light_v1') format('svg');
       font-weight: 200;
       font-style: normal;
   }
@@ -42,11 +42,11 @@
   // Medium
   @font-face {
     font-family: 'BestFutureV';
-    src: url('fonts/best_future_medium_v1.eot');
-    src: url('fonts/best_future_medium_v1.eot?#iefix') format('embedded-opentype'),
-         url('fonts/best_future_medium_v1.woff') format('woff'),
-         url('fonts/best_future_medium_v1.ttf') format('truetype'),
-         url('fonts/best_future_medium_v1.svg#best_future_medium_v1') format('svg');
+    src: url('best_future_medium_v1.eot');
+    src: url('best_future_medium_v1.eot?#iefix') format('embedded-opentype'),
+         url('best_future_medium_v1.woff') format('woff'),
+         url('best_future_medium_v1.ttf') format('truetype'),
+         url('best_future_medium_v1.svg#best_future_medium_v1') format('svg');
     font-weight: normal;
     font-style: normal;
   }
@@ -54,11 +54,11 @@
   // Bold
   @font-face {
       font-family: 'BestFutureV';
-      src: url('fonts/best_future_bold_v1.eot');
-      src: url('fonts/best_future_bold_v1.eot?#iefix') format('embedded-opentype'),
-           url('fonts/best_future_bold_v1.woff') format('woff'),
-           url('fonts/best_future_bold_v1.ttf') format('truetype'),
-           url('fonts/best_future_bold_v1.svg#best_future_bold_v1') format('svg');
+      src: url('best_future_bold_v1.eot');
+      src: url('best_future_bold_v1.eot?#iefix') format('embedded-opentype'),
+           url('best_future_bold_v1.woff') format('woff'),
+           url('best_future_bold_v1.ttf') format('truetype'),
+           url('best_future_bold_v1.svg#best_future_bold_v1') format('svg');
       font-weight: bold;
       font-style: normal;
   }
